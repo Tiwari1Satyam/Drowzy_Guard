@@ -1,0 +1,49 @@
+
+.key-features {
+  background-color: #f4f4f4;
+  padding: 40px 20px; /* Adjust padding */
+  text-align: center;
+}
+
+.key-features h2 {
+  font-size: 45px; /* Increase font size */
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.key-features p {
+  font-size: 25px; /* Increase font size */
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex-basis: 30%; /* Adjust width of each feature */
+  margin: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 80%;
+  height: auto;
+  transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.feature img:hover {
+  transform: scale(1.1); /* Scale up the image to 110% when hovered */
+}
+
+.feature h3 {
+  font-size: 24px; /* Increase font size */
+  margin: 10px 0;
+}
+
+.feature p {
+  font-size: 18px;
+  color: #555;
+}
